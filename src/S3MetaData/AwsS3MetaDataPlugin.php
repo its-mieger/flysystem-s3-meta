@@ -40,7 +40,7 @@
 
 					$response = $client->headObject($options);
 
-					return $response['MetaData'];
+					return $response['Metadata'];
 				}
 			}
 
