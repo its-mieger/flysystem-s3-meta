@@ -11,7 +11,7 @@
 	 * This plugin allows to query all S3 meta data using the getAwsMetaData function. The function will return an empty array for non-s3 file systems
 	 * @package S3Metadata
 	 */
-	class AwsS3MetadataPlugin implements PluginInterface
+	class AwsS3MetaDataPlugin implements PluginInterface
 	{
 		/** @var Filesystem */
 		protected $filesystem;
