@@ -1,0 +1,22 @@
+{
+  "name": "its-mieger/flysystem-s3-meta",
+  "description": "S3 Meta data plugin for Flysytem",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Christopher Mieger",
+      "email": "christopher.mieger@its-mieger.de"
+    }
+  ],
+  "require": {
+    "aws/aws-sdk-php": "~3.14",
+    "league/flysystem": "~1.0",
+    "league/flysystem-aws-s3-v3": "~1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  }
+}
